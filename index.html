@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joke Teller</title>
+    <link rel="icon" href="./robot.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+    <!--fara "module" putem pune tag-ul de script a sf tagului body pentru a fi executat cand DOM-ul este deja incarcat-->
+    <script src="./voice.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="btn-container">
+        <button class="pink-btn" id="joke-button">Tell me a joke!</button>
+        <button class="pink-btn" id="about-page-button">About App</button>
+      </div>
+      <div id="speech">Hello!</div>
+      <img src="./robotGif.gif" />
+    </div>
+  </body>
+</html>

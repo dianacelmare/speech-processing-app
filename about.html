@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Page</title>
+    <link rel="icon" href="./robot.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container about-page">
+      <button class="pink-btn" id="home-button">Home Page</button>
+      <h1>About our app</h1>
+      <p>
+        Fugiat qui voluptate et exercitation anim commodo. Aute tempor laboris
+        ullamco in dolore. Laborum sint consequat veniam mollit nostrud
+        consectetur cupidatat commodo sint exercitation deserunt ex nostrud.
+      </p>
+    </div>
+    <script>
+//adaugare functionalitate home page button
+const homeBtn = document.getElementById("home-button");
+homeBtn.addEventListener("click", function () {
+  window.location.href = "/";
+});
+
+    </script>
+  </body>
+</html>
